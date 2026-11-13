@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>P12 Portfolio Projects Grid</title>
+    <style>
+        body{
+            font-family:Arial, sans-serif;
+            margin:20px;
+            background-color:#f4f4f4;
+        }
+
+        h1{
+            text-align:center;
+        }
+
+        .grid{
+            display:grid;
+            grid-template-columns:repeat(autofit,minmax(100px,1fr));
+            gap:20px;
+        }
+
+        .card{
+            background-color:white;
+            padding:15px;
+            border:2px solid black;
+        }
+
+        .featured{
+
+            grid-column:span 2;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Projects</h1>
+
+    <section class="grid">
+        <div class="featured">
+            <h2>Featured Project: Personal Portfolio</h2>
+            <a href ="#">Project link</a>
+            <p>A portfolio website built using HTML and CSS.</p>
+        </div>
+
+        <div class="card">
+            <h2>Rider X</h2>
+            <a href="#">Project link</a>
+            <p>Local carpooling webapp using python and script</p>
+        </div>
+
+        <div class="card">
+            <h2>Ecoquest AI</h2>
+            <a href="#">project link</a>
+            <p>Real world gaming like pokemon go using python and ollama</p>
+        </div>
+
+        <div class="card">
+            <h2>Calculator Layout</h2>
+            <a href="#">project link</a>
+            <p>A basic calculator design using CSS Grid.</p>
+        </div>
+    </section>
+
+</body>
+</html>

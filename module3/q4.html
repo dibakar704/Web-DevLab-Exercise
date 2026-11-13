@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>P13 Flexbox vs Grid Layout</title>
+    <style>
+        body {
+            font-family:Arial, sans-serif;
+            margin:0;
+            background-color:#f4f4f4;
+        }
+
+       
+        .navbar {
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            background-color: #333;
+            color: white;
+            padding: 15px 20px;
+        }
+
+        .nav-links {
+            display:flex;
+            gap: 15px;
+        }
+
+         a {
+            color:white;
+            
+        }
+
+        
+        .page-layout {
+            display:grid;
+            grid-template-columns:200px 1fr;
+            gap:20px;
+            padding:20px;
+        }
+
+        .sidebar {
+            background-color:white;
+            padding:15px;
+            border:1px solid #ccc;
+        }
+
+       
+        .cards {
+            display:grid;
+            grid-template-columns:1fr 1fr;
+            gap: 15px;
+        }
+
+        .card {
+            background-color:white;
+            padding:15px;
+            border:1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+   
+    <header class="navbar">
+        <h2>My Website</h2>
+        <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+   
+    <div class="page-layout">
+        <aside class="sidebar">
+            <h3>Sidebar</h3>
+            <p>Navigation or profile info goes here.</p>
+        </aside>
+
+        <main class="cards">
+            <div class="card">
+                <h3>Why Flexbox </h3>
+                <p>The top navbar only arranges items in a single horizontal line, making Flexbox ideal.</p>
+            </div>
+
+            <div class="card">
+                <h3>Why Grid </h3>
+                <p>The sidebar and cards need both rows and columns aligned together, making Grid ideal.</p>
+            </div>
+        </main>
+    </div>
+
+</body>
+</html>
