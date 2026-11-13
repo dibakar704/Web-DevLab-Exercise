@@ -1,4 +1,4 @@
-body {
+body{
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
     margin: 0;
@@ -6,7 +6,7 @@ body {
     color: #222222;
 }
 
-.header {
+.header{
     position:sticky;
     top:0;
     z:1000;
@@ -16,24 +16,24 @@ body {
     padding: 25px;
 }
 
-.header h1 {
+.header h1{
     margin: 0;
     font-size: 32px;
 }
 
-.header p {
+.header p{
     margin-top: 8px;
     font-size: 16px;
 }
 
-.nav {
+.nav{
    
     background-color: #34495e;
     text-align: center;
     padding: 12px;
 }
 
-.nav a {
+.nav a{
     color: white;
     text-decoration: none;
     margin-left: 15px;
@@ -41,7 +41,7 @@ body {
     font-size: 16px;
 }
 
-.section {
+.section{
     background-color: white;
     width: 80%;
     margin: 20px auto;
@@ -49,29 +49,29 @@ body {
     border: 1px solid #cccccc;
 }
 
-.section h2 {
+.section h2{
     color: #2c3e50;
     border-bottom: 2px solid #2c3e50;
     padding-bottom: 5px;
 }
 
-.box {
+.box{
     background-color: #f9f9f9;
     border: 1px solid #dddddd;
     padding: 12px;
     margin-top: 10px;
 }
 
-.box h3 {
+.box h3{
     margin-top: 0;
     color: #333333;
 }
 
-ul {
+ul{
     line-height: 1.8;
 }
 
-.footer {
+.footer{
     background-color: #2c3e50;
     color: white;
     text-align: center;
